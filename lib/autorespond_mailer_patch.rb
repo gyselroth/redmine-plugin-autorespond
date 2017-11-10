@@ -14,6 +14,11 @@ module AutorespondMailerPatch
         message_id issue
         references issue
         @content = content
+        @issue = issue
+        @author = issue.author
+        @users =  [issue.author]
+        @issue_url = url_for(:controller => 'issues', :action => 'show', :id => issue)
+
         mail :to => from,
             :subject => "[#{issue.project.name} - #{issue.tracker.name} ##{issue.id}] (#{issue.status.name}) #{issue.subject}"
     end
