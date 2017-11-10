@@ -10,7 +10,6 @@ module AutorespondMailHandlerControllerPatch
   end
   
   module InstanceMethods
-    # Adds a rates tab to the user administration page
     def index_with_autoresponse
         options = params.dup
         email = options.delete(:email)
