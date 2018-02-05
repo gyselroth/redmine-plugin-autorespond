@@ -1,3 +1,9 @@
 = autorespond
 
 Plugin to automatically respond with a predefined message to people who anonymously create an issue via email. All headers and the subject are set like in a normal "ticket created" mail, so that the recipient can just answer the mail to add a comment to the ticket.
+
+== Installation
+
+To install the plugin follow the steps below:
+1. clone this git repository (or extract the zipfile) in your redmine plugin directory
+2. rename the directory redmine-plugin-autorespond to autorespond (credits to MagicFab, see Issue #2)
