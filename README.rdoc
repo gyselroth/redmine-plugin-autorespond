@@ -7,3 +7,4 @@ Plugin to automatically respond with a predefined message to people who anonymou
 To install the plugin follow the steps below:
 1. clone this git repository (or extract the zipfile) in your redmine plugin directory
 2. rename the directory redmine-plugin-autorespond to autorespond (credits to MagicFab, see Issue #2)
+3. enable the module for the projects you wish to have an automated response
